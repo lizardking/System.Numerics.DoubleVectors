@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard1.3</TargetFramework>
+    <TargetFrameworks>netstandard2.0;net4.6.1</TargetFrameworks>
     <PackageId>System.DoubleNumerics</PackageId>
     <PackageVersion>3.1.3</PackageVersion>
     <Authors>Weingartner</Authors>
@@ -10,6 +10,7 @@
     <PackageReleaseNotes>Rebuild for release mode</PackageReleaseNotes>
     <PackageTags>numerics vector matrix</PackageTags>
     <LicenseUrl>https://opensource.org/licenses/MIT</LicenseUrl>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
